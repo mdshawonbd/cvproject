@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+   background-color: #eee ;
+}
+.header-profile img{
+    width: 80px;
+    border:3px solid #eee;
+    border-radius: 50%;
+    height: 90px;
+    float: left;
+}
+.container{
+    background-color: #e4e4e4;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgb(12, 139, 139);
+}
+.header-title{
+    float: left;
+    padding: 20px;
+}
+.header-contact{
+    float: right;
+    padding: 20px;
+}
+.header-contact a{
+    text-decoration: none;
+    font-weight: bold;
+    color: teal;
+
+}
+.header-contact a:hover{
+    text-decoration: underline;
+
+    color: red;
+    
+}
+.div-cliner{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    max-width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
